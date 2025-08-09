@@ -9,7 +9,7 @@ async function sendMessage() {
     const response = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
-            "Authorization": "Bearer YOUR_OPENAI_API_KEY",
+            "Authorization": "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,
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
